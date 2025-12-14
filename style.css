@@ -1,0 +1,51 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 600px;
+    color: #333;
+}
+
+h1 {
+    color: #c00;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+blockquote {
+    background-color: #fffacd;
+    border-left: 8px solid #c00;
+    margin: 30px 0;
+    padding: 30px 40px;
+    font-style: italic;
+    font-size: 1.4em;
+}
+
+blockquote p {
+    display: inline;
+    position: relative;
+}
+
+blockquote p::before {
+    content: "“";
+    color: #c00;
+    font-size: 1.6em;
+    margin-right: 6px;
+}
+
+blockquote p::after {
+    content: "”";
+    color: #c00;
+    font-size: 1.6em;
+    margin-left: 6px;
+}
+
+blockquote footer {
+    display: block;
+    text-align: right;
+    margin-top: 15px;
+    color: #c00;
+    font-weight: bold;
+    font-style: normal;
+}
